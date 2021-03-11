@@ -7,7 +7,7 @@
 
 #ifndef _STD_TYPES_H_
 #define _STD_TYPES_H_
-
+#define NULL ((void*)0)
 typedef signed char s8; 					/* 1 byte */
 typedef unsigned char u8;					/* 1 byte */
 
