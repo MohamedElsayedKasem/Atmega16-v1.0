@@ -95,7 +95,7 @@ void __vector_0(void)
 	}
 	else
 	{
-
+		/*DO NOTHING*/
 	}
 }
 
@@ -107,7 +107,7 @@ void __vector_1(void)
 	}
 	else
 	{
-
+		/*DO NOTHING*/
 	}
 }
 
@@ -119,6 +119,6 @@ void __vector_3(void)
 	}
 	else
 	{
-
+		/*DO NOTHING*/
 	}
 }
