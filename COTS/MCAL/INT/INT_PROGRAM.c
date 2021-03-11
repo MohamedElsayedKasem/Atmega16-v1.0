@@ -93,6 +93,10 @@ void __vector_0(void)
 	{
 	PTR_ExtInt[0]();
 	}
+	else
+	{
+
+	}
 }
 
 void __vector_1(void)
@@ -101,6 +105,10 @@ void __vector_1(void)
 	{
 	PTR_ExtInt[1]();
 	}
+	else
+	{
+
+	}
 }
 
 void __vector_3(void)
@@ -108,5 +116,9 @@ void __vector_3(void)
 	if(PTR_ExtInt[2] != NULL)
 	{
 	PTR_ExtInt[2]();
+	}
+	else
+	{
+
 	}
 }
