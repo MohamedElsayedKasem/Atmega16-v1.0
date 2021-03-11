@@ -89,15 +89,18 @@ void EXTINT_VIDCallBack(u8 COPY_U8IntNumber, void (*PTR_Function) (void) )
 
 void __vector_0(void)
 {
+	if(PTR_ExtInt[0] != NULL)
 	PTR_ExtInt[0]();
 }
 
 void __vector_1(void)
 {
+	if(PTR_ExtInt[1] != NULL)
 	PTR_ExtInt[1]();
 }
 
 void __vector_3(void)
 {
+	if(PTR_ExtInt[2] != NULL)
 	PTR_ExtInt[2]();
 }
